@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ExploreFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="222dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bar24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/bar2" />
+
+            <RelativeLayout
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/kembaliClick7"
+                    android:layout_width="35dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/kembali" />
+
+                <TextView
+                    android:id="@+id/explaind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Profile TPA"
+                    android:textColor="#181725"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:fontFamily="@font/poppins_medium" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="25dp"
+                    app:srcCompat="@drawable/sukawinatan" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="290dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="TPA Sukawinatan"
+                        android:textColor="#181725"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        tools:fontFamily="@font/poppins_bold" />
+
+                    <TextView
+                        android:id="@+id/explain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="TPA Sukawinatan Palembang merupakan Tempat Pembuangan Akhir (TPA) sampah di Palembang. TPA ini menangani dan mengelola berbagai jenis sampah dari kota. Meskipun berusaha menjaga kebersihan, TPA ini masih menghadapi tantangan polusi dan dampak lingkungan dari penumpukan sampah. Pentingnya kesadaran masyarakat untuk mengurangi sampah dan daur ulang menjadi hal yang harus terus ditingkatkan."
+                        android:textColor="#7C7C7C"
+                        android:textSize="14sp"
+                        android:textStyle="normal"
+                        tools:fontFamily="@font/poppins"
+                        android:justificationMode="inter_word"/>
+
+                    <View
+                        android:layout_width="330dp"
+                        android:layout_height="2dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="35dp"
+                        android:background="?android:attr/listDivider"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:layout_editor_absoluteY="743dp" />
+
+                    <RelativeLayout
+                        android:layout_width="360dp"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="30dp"
+                        android:layout_marginTop="0dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Review"
+                            android:textColor="#181725"
+                            android:textSize="20sp"
+                            android:textStyle="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            tools:fontFamily="@font/poppins_medium" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:layout_marginLeft="260dp"
+                            android:layout_marginTop="22dp"
+                            app:srcCompat="@drawable/star"/>
+
+                        <TextView
+                            android:id="@+id/kembaliClick6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:layout_marginLeft="295dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="5.0"
+                            android:textColor="#181725"
+                            android:textSize="20sp"
+                            android:textStyle="normal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            tools:fontFamily="@font/poppins_medium" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
